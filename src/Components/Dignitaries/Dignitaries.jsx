@@ -7,7 +7,7 @@ import image4 from "../../assets/Diginitaries/Rashi_k.jpg"
 import image5 from "../../assets/Diginitaries/sakshi_p.jpg"
 import image6 from "../../assets/Diginitaries/Amit_P.jpg"
 import image7 from "../../assets/Diginitaries/Shrey_p.jpg"
-import image8 from "../../assets/Diginitaries/Krupesh_s.jpg"
+import image8 from "../../assets/Diginitaries/krupesh_s.jpg"
 import image9 from "../../assets/Diginitaries/Prahlad_R.jpg"
 
 
