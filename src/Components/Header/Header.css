@@ -1,0 +1,86 @@
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0277bd;
+    color: white;
+  }
+   */
+   .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: px;
+    color: #241158;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 20px; 
+}
+
+.rotaract-logo {
+    max-width: 122px;
+    padding-top: 2px;
+    height: auto;
+
+}
+
+.text-content h1 {
+    font-size: 30px;
+    margin: 0;
+    padding-left: 30px;
+    color: #241158;
+}
+
+.text-content p {
+    font-size: 18px;
+    padding-left: 30px;
+    margin: 5px 0 0;
+    color: #111111;
+}
+
+.palghar-logo {
+    max-width: 330px; 
+    height: auto;
+
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-container {
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .text-content h1 {
+        font-size: 24px;
+    }
+
+    .text-content p {
+        font-size: 14px;
+    }
+
+    .rotaract-logo {
+        max-width: 80px;
+    }
+
+    .palghar-logo {
+        align-self: flex-end; 
+        max-width: 120px;
+        margin-top: 10px;
+    }
+}
